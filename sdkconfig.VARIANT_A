@@ -1,0 +1,13 @@
+#
+# Automatically generated file. DO NOT EDIT.
+#
+
+#
+# Application SW variant
+#
+CONFIG_APPLICATION_SW_VARIANT_A=y
+# CONFIG_APPLICATION_SW_VARIANT_B is not set
+# CONFIG_APPLICATION_SW_VARIANT_C is not set
+# CONFIG_APPLICATION_SW_VARIANT_D is not set
+# end of Application SW variant
+# end of Component config

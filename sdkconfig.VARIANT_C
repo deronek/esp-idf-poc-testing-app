@@ -1,0 +1,8 @@
+#
+# Application SW variant
+#
+# CONFIG_APPLICATION_SW_VARIANT_A is not set
+# CONFIG_APPLICATION_SW_VARIANT_B is not set
+CONFIG_APPLICATION_SW_VARIANT_C=y
+# CONFIG_APPLICATION_SW_VARIANT_D is not set
+# end of Application SW variant

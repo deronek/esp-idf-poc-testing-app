@@ -1,0 +1,26 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32",
+  "idf.portWin": "COM4",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "*.tcc": "c",
+    "adc_cali_scheme.h": "c",
+    "adc_oneshot.h": "c",
+    "dac_oneshot.h": "c",
+    "sdkconfig.h": "c",
+    "ratio": "c",
+    "system_error": "c",
+    "array": "c",
+    "functional": "c",
+    "regex": "c",
+    "tuple": "c",
+    "type_traits": "c",
+    "utility": "c",
+    "freertos.h": "c"
+  },
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32.cfg"
+  ]
+}

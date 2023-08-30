@@ -1,0 +1,26 @@
+menu "Application SW variant"
+
+    choice APPLICATION_SW_VARIANT
+        prompt "Application SW variant"
+        default APPLICATION_SW_VARIANT_A
+        help
+            Choose SW variant of the application. This will influence the attenuation of the ADC.
+
+        config APPLICATION_SW_VARIANT_A
+            bool
+            prompt "Variant A (0 dB attenuation)"
+
+        config APPLICATION_SW_VARIANT_B
+            bool
+            prompt "Variant B (2.5 dB attenuation)"
+
+        config APPLICATION_SW_VARIANT_C
+            bool
+            prompt "Variant C (6 dB attenuation)"
+
+        config APPLICATION_SW_VARIANT_D
+            bool
+            prompt "Variant D (11 dB attenuation)"
+    endchoice
+    
+endmenu
